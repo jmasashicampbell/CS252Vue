@@ -21,8 +21,8 @@
     </div>
     <router-view/>
     <footer>
-      <a href="https://github.com/jmasashicampbell/CS252Redesign">
-        <img src="assets/github.png" alt="github">
+      <a href="https://github.com/jmasashicampbell/CS252Vue">
+        <img alt="github" src="./assets/github.png" >
       </a>
     </footer>
   </div>

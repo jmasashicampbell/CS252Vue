@@ -9,12 +9,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <router-link to="/" class="nav-item nav-link">Home</router-link>
-            <router-link to="/policies" class="nav-item nav-link">Policies</router-link>
-            <router-link to="/schedule" class="nav-item nav-link">Schedule</router-link>
-            <!--<router-link to="/notes" class="nav-item nav-link">Class Notes</router-link>-->
-            <router-link to="/homework" class="nav-item nav-link">Homework</router-link>
-            <!--<router-link to="/ta" class="nav-item nav-link">TA Schedule</router-link>-->
+            <router-link to="/" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/' }">Home</router-link>
+            <router-link to="/policies" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/policies' }">Policies</router-link>
+            <router-link to="/schedule" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/schedule' }">Schedule</router-link>
+            <!--<router-link to="/notes" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/notes' }">Class Notes</router-link>-->
+            <router-link to="/homework" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/homework' }">Homework</router-link>
+            <!--<router-link to="/ta" class="nav-item nav-link" v-bind:class="{ 'active': $route.path === '/ta' }">TA Schedule</router-link>-->
           </div>
         </div>
       </nav>

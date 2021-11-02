@@ -19,7 +19,9 @@
         </div>
       </nav>
     </div>
+
     <router-view/>
+
     <footer>
       <a href="https://github.com/jmasashicampbell/CS252Vue">
         <img alt="github" src="./assets/github.png" >
@@ -47,7 +49,7 @@
 }
 
 html {
-  font-size: 40px;
+  font-size: 16px;
 }
 
 body {
@@ -70,9 +72,39 @@ footer {
   background-color: var(--navy-blue);
 }
 
-
 footer a img{
   height: 2rem;
+}
+
+.cap-width {
+  width: min(100%, 1200px);
+  margin: auto;
+}
+
+.cap-width-padding {
+  width: min(100%, 1200px);
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+}
+
+h3 {
+  font-size: 1.125rem;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 @media only screen and (min-device-width: 641px) and (min-width: 641px){

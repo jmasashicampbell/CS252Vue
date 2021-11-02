@@ -1,12 +1,13 @@
 <template>
-  <div class="blue-box">
+  <div v-bind:class="'blue-box ' + color">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "blue-box"
+  name: "blue-box",
+  props: ["color"]
 }
 </script>
 
@@ -17,6 +18,18 @@ export default {
   background-color: var(--royal-blue);
   border-radius: 0.7rem;
   box-shadow: var(--light-shadow);
+}
+
+.navy {
+  background-color: var(--navy-blue);
+}
+
+.dark {
+  background-color: var(--dark-blue);
+}
+
+.royal {
+  background-color: var(--royal-blue);
 }
 
 .blue-box h3 {

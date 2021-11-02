@@ -1,5 +1,5 @@
 <template>
-  <blue-box class="instructor-box">
+  <blue-box color="dark" class="instructor-box">
     <div class="instructor-inner">
       <h4> {{ name }} </h4>
       Email: <a v-bind:href="'mailto:' + email">{{ email }}</a><br>
@@ -28,7 +28,6 @@ export default {
   margin: 0.5rem 0;
   padding: 1.25rem 0.625rem;
   width: 100%;
-  background-color: var(--dark-blue);
 }
 
 .instructor-box a {

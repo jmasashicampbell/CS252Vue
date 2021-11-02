@@ -1,5 +1,5 @@
 <template>
-  <blue-box>
+  <blue-box color="">
     <h4>{{ title }}</h4>
     <p>{{ body }}</p>
   </blue-box>

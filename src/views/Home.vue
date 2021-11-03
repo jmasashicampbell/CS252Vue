@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 .symbol-banner {
-  height: 15rem;
+  height: 16rem;
   background-image: url("../assets/symbols.jpg");
   background-repeat: repeat;
   display: flex;
@@ -88,7 +88,7 @@ export default {
 }
 
 .main-title {
-  padding: 30px;
+  padding: 1.8rem;
   text-align: center;
   background-color: white;
   border-radius: 0.7rem;

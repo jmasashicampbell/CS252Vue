@@ -289,6 +289,7 @@
         </p>
       </policy-box>
     </div>
+    <hr>
   </div>
 </template>
 

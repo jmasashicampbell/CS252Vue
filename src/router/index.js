@@ -14,7 +14,12 @@ const routes = [
     path: '/policies',
     name: 'Policies',
     component: () => import('../views/Policies.vue')
-  }
+  },
+  {
+    path: '/schedule',
+    name: 'Schedule',
+    component: () => import('../views/Schedule.vue')
+  },
 ]
 
 const router = new VueRouter({

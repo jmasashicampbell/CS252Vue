@@ -90,8 +90,10 @@ export default {
 }
 
 .homework-box th, td {
+  border-color: var(--light-gray);
   padding: 0.5rem;
 }
+
 
 .completed {
   text-decoration: line-through;
